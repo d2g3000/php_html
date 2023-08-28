@@ -1,0 +1,30 @@
+<FiscalDoc>
+  <CompanyLicCod>XXXXXXXX</CompanyLicCod>
+  <BranchCod>0000</BranchCod>
+  <POSCod>001</POSCod>
+  <PrintStationId>1</PrintStationId>
+  <PrinterId>1</PrinterId>
+  <DocType>F</DocType>
+  <DocNumber>10001</DocNumber>
+  <CustomerName>Cliente X &amp; Y</CustomerName>
+  <CustomerRUC>111111-1-111111 DV00</CustomerRUC>
+  <CustomerType>04</CustomerType>
+  <CustomerAddress>San Francisco</CustomerAddress>
+  <Email>email@delcliente.com</Email>
+  <AddInfo>
+     <Line Id="1">Numero de pedido: 12345</Line>
+     <Line Id="2">Entrega en sitio</Line>
+  </AddInfo>
+  <Items>
+     <Item Id="1" Qty="10.00" Code="P001" Desc="Producto ITBMS 7%" Price="10.0000" Tax="1" Comments="La propiedad price es precio unitario" dperc="10%" bcode="" />
+     <Item Id="2" Qty="10.00" Code="P002" Desc="Producto ITBMS 0% Exento" Price="10.0000" Tax="0" Comments="El descuento se aplica por % o por monto total de descuento son excluyentes" damt="20.00" bcode="" />
+  </Items>
+  <Discount amt="0.00" perc="00.00%" />
+  <Payments>
+     <Payment Id="1" type="01"  amt="176.30" Desc1="EFECTIVO" />
+  </Payments>
+  <Trailer>
+     <Line Id="1">Información al final</Line>
+     <Line Id="2">Información al final</Line>
+  </Trailer>
+</FiscalDoc>
